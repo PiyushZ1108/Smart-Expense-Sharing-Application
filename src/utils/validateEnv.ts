@@ -4,6 +4,7 @@ const validateEnv = () => {
   cleanEnv(process.env, {
     NODE_ENV: str(),
     PORT: port(),
+    MONGODB_CONNECTION_URL: str(),
   });
 };
 
